@@ -1,0 +1,96 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#MainHeader{
+    text-align: center;
+}
+form{
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px whitesmoke;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px grey;
+    background-color: white;
+}
+form>*{
+    margin-left: 5px;
+}
+label{
+    color: darkgray;
+    font-size: small;
+}
+input{
+    color: black;
+    outline: none;
+    border-bottom-width: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+input:focus{
+    outline: none;
+    border-color: #46dc2f;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.FormTextInputsDiv{
+    display: inline-block;
+    width:47%;
+    padding-left: 2%;
+    margin-top: 20px;
+}
+.FormInputs{
+    width:100%;
+    border-color: white; 
+}
+#cancelButton{
+    margin-left: 2%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: inherit;
+    border-radius: 20px;
+    margin-top: 45px;
+    color: gray;
+    height: 30px;
+    width: 15%;
+}
+#suButton,#liButton {
+    background-color: #46dc2f;
+    border-style: solid;
+    border-radius: 20px;
+    position: absolute;
+    left: 80%;
+    width: 15%;
+    margin-top: 45px;
+    border-color: #46dc2f;
+    color: white;
+    height: 30px;
+}
+.ButtonsDiv{
+    width: 100%;
+}
+#main{
+    filter: blur(6px);
+}
+#H1{
+    font-size: 50px;
+}
+#H2{
+    font-size: 25px;
+}
+#webPic{
+    width: 100%;
+}
+nav{
+    background-color: rgb(248, 186, 73);
+}
+nav>*{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
