@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log_In</title>
+    <link rel="stylesheet" href="signup_style.css">
+</head>
+<body>
+    <div>
+        <div id="main">
+            <nav>
+                <br><br>
+                <div id="H1">THE ENTELECT GRADUATE PROGRAMME</div>
+                <div id="H2">EVERYONE WAS ONCE A N00B</div>
+                <br><br>
+            </nav>
+            <div>
+                <img src="Pic.png" alt="" id="webPic">
+            </div>
+        </div>
+        <form action="">
+            <h1 id="MainHeader">Log In</h1>
+        <div class='FormTextInputsDiv'>
+            <label for="fname" id="lblfname">Name:</label><br>
+            <input type="text" id="fname" name="name" placeholder="John" class="FormInputs" required/>
+        </div>
+
+        <div class='FormTextInputsDiv'>
+            <label for="surname">Surname:</label><br>
+            <input type="text" id="surname" name="surname" placeholder="Doe" class="FormInputs" required />
+        </div>
+
+        <div class='FormTextInputsDiv'>
+            <label for="email">Email Address:</label><br>
+            <input type="text" id="email" name="email" placeholder="johndoe@provider.co.za" class="FormInputs" onchange="validEmail()" required />
+        </div>
+
+        <div class='FormTextInputsDiv'>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="J0hn_D03" class="FormInputs">
+        </div>
+
+        <div class='FormTextInputsDiv'>
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password" placeholder="*******" class="FormInputs" required>
+        </div>
+
+        <div class="ButtonsDiv">
+            <button type="reset" id="cancelButton">Cancel</button>
+            <button type="button" id="liButton" onclick="detailsLogIn()"> Log In</button>
+        </div>
+        </form>
+    </div>
+
+    <script src="loginscript.js"></script>
+</body>
+</html>
